@@ -1,6 +1,6 @@
-# [Program Title]
+# Pig Dice
 
-  ### By [Author(s)]
+  ### By Taylor Somers
 
 ## Description
 
@@ -9,15 +9,18 @@
 ## Languages & Technologies Used:
 
   ### Programming Languages & Libraries
-  * [Unordered List]
+  * Markdown
 
   ### Operating Systems & Programs
-  * [Unordered List]
+  * Brave
+  * Git Bash
+  * Google Chrome
+  * Visual Studio Code
 
 ## Installation
 
   1. Download a web browser, such as Apple Safari, Google Chrome, Microsoft Edge, Mozilla Firefox, or Yandex.
-  2. Navigate to https://github.com/taylorsomers/[repository].
+  2. Navigate to https://github.com/taylorsomers/pig-dice.
   3. Click the green "Clone or download" button at the right of the screen.
   4. Select "Download ZIP."
   5. Use a file extractor or unzip program (such as PeaZip, Unzipper, WinZip, Zipware, or 7-ZIP) to extract the ZIP files onto your computer.
@@ -28,20 +31,17 @@
 
   | Program Behavior | Example Behavior | Example Output |
   |---|---|---|
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
-  |  |  |  |
+  | Program will generate a random number from 1 to 6, inclusive. |  |  |
+  | Program will sum randomly generated numbers as they are generated. |  |  |
+  | Program will sum randomly generated numbers as they are generated, unless and until the number 1 is generated. |  |  |
+  | Program will sum randomly generated numbers as they are generated, unless and until the number 1 is generated, at which point the sum will be changed to 0. |  |  |
+  | Program will track two parallel sums of randomly generated numbers, which sums are the scores of the respective players. |  |  |
+  | Program will alternate turns between players. |  |  |
+  | Program will display an error when a player attempts to "roll the die" when it is not their turn. |  |  |
+  | Program will add each successive randomly generated number to a player's score when it is their turn. |  |  |
+  | Program will switch turns from one player to the other when that player receives the randomly generated number 1. |  |  |
+  | Program will switch turns from one player to the other when that player exercises their option to "Hold". |  |  |
+  | Program will announce the winner when/if one of the players's score reaches 100 or more. |  |  |
 
 ## Known Bugs
 
@@ -49,7 +49,7 @@
 
 ### Contributors
 
-  * [Contributor(s): Anyone who contributed at least %5 of the total product.]
+  * Taylor Somers
 
 ### License
 
