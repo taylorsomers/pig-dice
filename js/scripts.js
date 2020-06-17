@@ -11,6 +11,7 @@ Player.prototype.accumulateTurnScore = function(turnScore, roll) {
     this.turnScore += roll;
   } else {
     this.turnScore = 0;
+    this.turnStatus = false;
   }
 }
 
@@ -31,12 +32,18 @@ $(document).ready(function() {
   let player1 = new Player(0, 0, true);
   let player2 = new Player(0, 0, false);
   let turnScore = 0;
-  let totalScore = 0;
   $("button#player1-roll").click(function(event) {
     event.preventDefault();
-    let roll = randomNumber(1, 7);
-    player1.accumulateTurnScore(turnScore, roll);
-    $("p#player1-roll-result").text(roll + " " + player1.turnScore);
+    if (player1.turnStatus) {
+      let roll = randomNumber(1, 7);
+      player1.accumulateTurnScore(turnScore, roll);
+      if (player1.turnStatus === false) {
+        player2.turnStatus = true;
+      }
+      $("p#player1-roll-result").text(roll + " " + player1.turnScore);
+    } else {
+      $("p#player1-roll-result").text("IT'S NOT YOUR TURN!");
+    }
   });
   $("button#player1-hold").click(function(event) {
     event.preventDefault();
