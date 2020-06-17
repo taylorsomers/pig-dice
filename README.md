@@ -1,16 +1,17 @@
 # Pig Dice
 
-  ### By Taylor Somers
+  ### By Taylor Somers & Beverly Potts
 
 ## Description
 
-  [Description of program functionality & intent presented as an elevator pitch]
+  A fully functional simulated game of Pig Dice that can be played by two players. This program uses what we have learned so far regarding object-oriented JavaScript programming in our Epicodus class, and is a good representative document of the back-end / business logic skills we have been working on cultivating.
 
 ## Languages & Technologies Used:
 
   ### Programming Languages & Libraries
   * HTML
   * JavaScript
+  * jQuery
   * Markdown
 
   ### Operating Systems & Programs
@@ -54,7 +55,8 @@
 ### Contributors
 
   * Taylor Somers
+  * Beverly Potts
 
 ### License
 
-This website is licensed under the GNU General Public License GPLv3. (C) 2020 Taylor Somers. All rights reserved.
+This website is licensed under the GNU General Public License GPLv3. (C) 2020 Taylor Somers, Beverly Potts. All rights reserved.
