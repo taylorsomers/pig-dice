@@ -9,6 +9,8 @@
 ## Languages & Technologies Used:
 
   ### Programming Languages & Libraries
+  * HTML
+  * JavaScript
   * Markdown
 
   ### Operating Systems & Programs
@@ -31,7 +33,7 @@
 
   | Program Behavior | Example Behavior | Example Output |
   |---|---|---|
-  | Program will generate a random number from 1 to 6, inclusive. |  |  |
+  | Program will generate a random number from 1 to 6, inclusive. | "number" + Enter | "4" |
   | Program will sum randomly generated numbers as they are generated. |  |  |
   | Program will sum randomly generated numbers as they are generated, unless and until the number 1 is generated. |  |  |
   | Program will sum randomly generated numbers as they are generated, unless and until the number 1 is generated, at which point the sum will be changed to 0. |  |  |
