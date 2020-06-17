@@ -34,10 +34,9 @@
   | Program Behavior | Example Behavior | Example Output |
   |---|---|---|
   | Program will generate a random number from 1 to 6, inclusive. | "number" + Enter | "4" |
-  | Program will generate a new random number from 1 to 6, inclusive, each time the random number generation functionality is initiated. |  |  |
-  | Program will sum randomly generated numbers as they are generated. |  |  |
+  | Program will generate a new random number from 1 to 6, inclusive, each time the random number generation functionality is initiated. | "click, click" | "3, 5" |
+  | Program will sum randomly generated numbers as they are generated. | "5, 2, 4" | "5, 5; 2, 7; 4, 11" |
   | Program will sum randomly generated numbers as they are generated, unless and until the user exercises their option to "Hold". |  |  |
-  | Program will sum randomly generated numbers as they are generated, unless and until the number 1 is generated. |  |  |
   | Program will sum randomly generated numbers as they are generated, unless and until the number 1 is generated, at which point the sum will be changed to 0. |  |  |
   | Program will track two parallel sums of randomly generated numbers, which sums are the scores of the respective players. |  |  |
   | Program will alternate turns between players. |  |  |
