@@ -9,7 +9,12 @@ function randomNumber(min, max) {
 // UI Logic:
 
 $(document).ready(function() {
-  let number = randomNumber(1, 6);
+  $("button#number-button").click(function(event) {
+    event.preventDefault();
+    let number = randomNumber(1, 7);
+
+    $("p#number").text(number);
+  });
 });
 
 // End UI Logic
