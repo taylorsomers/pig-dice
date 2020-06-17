@@ -42,6 +42,9 @@ $(document).ready(function() {
     player1.accumulateTotalScore();
     $("p#total-score").text(player1.totalScore);
     $("p#number").text(player1.turnScore);
+    if (player1.totalScore >= 100) {
+      alert("Player 1 is the winner!");
+    }
   });
 });
 
