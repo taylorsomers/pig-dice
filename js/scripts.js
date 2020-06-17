@@ -19,6 +19,7 @@ function randomNumber(min, max) {
 
 Player.prototype.accumulateTotalScore = function() {
   this.totalScore += this.turnScore;
+  this.turnScore = 0;
 }
 
 // End Business Logic
@@ -40,6 +41,7 @@ $(document).ready(function() {
     event.preventDefault();
     player1.accumulateTotalScore();
     $("p#total-score").text(player1.totalScore);
+    $("p#number").text(player1.turnScore);
   });
 });
 
