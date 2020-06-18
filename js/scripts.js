@@ -56,9 +56,16 @@ $(document).ready(function() {
   });
   $("button#player2-roll").click(function(event) {
     event.preventDefault();
-    let roll = randomNumber(1, 7);
-    player2.accumulateTurnScore(turnScore, roll);
-    $("p#player2-roll-result").text(roll + " " + player2.turnScore);
+    if (player2.turnStatus) {
+      let roll = randomNumber(1, 7);
+      player2.accumulateTurnScore(turnScore, roll);
+      if (player2.turnStatus === false) {
+        player1.turnStatus = true;
+      }
+      $("p#player2-roll-result").text(roll + " " + player2.turnScore);
+    } else {
+      $("p#player2-roll-result").text("IT'S NOT YOUR TURN!");
+    }
   });
   $("button#player2-hold").click(function(event) {
     event.preventDefault();
