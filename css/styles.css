@@ -1,5 +1,15 @@
+button {
+  font-family: snell;
+}
+
+.jumbotron {
+  background-color: rgb(238, 238, 216);
+  text-align: center;
+  font-family: snell;
+}
+
 .placeholder {
-  color: black;
+  color: green;
 }
 
 .player-console {
@@ -7,25 +17,48 @@
 }
 
 .score {
-  color: red;
+  color: white;
   font-size: xx-large;
+}
+
+.score-line {
+  border-top: 1px solid white;
+  width: 70%;
 }
 
 .scoreboard-text {
   color: white;
 }
 
+#instructions {
+  margin-right: auto;
+  margin-left: auto;
+  text-align: justify;
+  width: 50%;
+}
+
 #player1-error {
+  color: red;
   display: none;
 }
 
 #player2-error {
+  color: red;
   display: none;
 }
 
 #scoreboard {
-  background-color: black;
+  background-color: green;
   width:40%;
   margin-right: auto;
   margin-left: auto;
+}
+
+#title {
+  border-top: solid black;
+  width: 50%;
+}
+
+#winner-rule {
+  text-align: center;
 }
