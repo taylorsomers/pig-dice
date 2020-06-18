@@ -42,10 +42,8 @@
   | Program will change the turn total to 0 when the "Hold" button is pushed. | "Roll: 5; Hold" | "Turn Total: 5; Turn Total: 0" |
   | Program will announce the winner when/if one of the players clicks the "Hold" button such that their total score reaches 100 or more. | "Turn Total: 12, Total Score: 95, Hold" | "Alert: 'Player 1 is the winner!'" |
   | Program will track two parallel sums of randomly generated numbers, which sums are the scores of the respective players. | "Player 1: Roll 5, Turn Total 5 > Hold; Player 2: Roll 4, Turn Total 4 > Hold" | "Player 1 Total Score: 5; Player 2 Total Score: 4" |
-  | Program will alternate turns between players. |  |  |
-  | Program will display an error when a player attempts to "roll the die" when it is not their turn. |  |  |
-  | Program will add each successive randomly generated number to a player's score when it is their turn. |  |  |
-  | Program will switch turns from one player to the other when that player receives the randomly generated number 1. |  |  |
+  | Program will alternate turns between players when either player rolls a 1. | "Player 1: Roll 3 > Roll 1; Player 2: Roll 4 > Roll 1" | "Player 1 turnStatus: true > turnStatus: false; Player 2 turnStatus: true > turnStatus: false" |
+  | Program will display an error when a player attempts to "roll the die" when it is not their turn. | "Player 1: Roll 1 > Click; Player 2: Roll 4, Turn Total 4 > Roll 1, Turn Total 1 > Click" | "Turn Total 0, 'IT'S NOT YOUR TURN!'; Turn Total 4, Turn Total 0, 'IT'S NOT YOUR TURN!' |
   | Program will switch turns from one player to the other when that player exercises their option to "Hold". |  |  |
 
 ## Known Bugs
