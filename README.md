@@ -9,6 +9,8 @@
 ## Languages & Technologies Used:
 
   ### Programming Languages & Libraries
+  * Bootstrap
+  * CSS
   * HTML
   * JavaScript
   * jQuery
