@@ -1,7 +1,31 @@
+.placeholder {
+  color: black;
+}
+
+.player-console {
+  text-align: center;
+}
+
+.score {
+  color: red;
+  font-size: xx-large;
+}
+
+.scoreboard-text {
+  color: white;
+}
+
 #player1-error {
   display: none;
 }
 
 #player2-error {
   display: none;
+}
+
+#scoreboard {
+  background-color: black;
+  width:40%;
+  margin-right: auto;
+  margin-left: auto;
 }

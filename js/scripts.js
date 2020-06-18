@@ -43,6 +43,7 @@ $(document).ready(function() {
       player1.accumulateTurnScore(roll);
       if (roll === 1) {
         $("p#player2-error").hide();
+        player2.turnStatus = true;
       }
       $("p#player1-roll-result").text(roll + " " + player1.turnScore);
     } else {
@@ -68,6 +69,7 @@ $(document).ready(function() {
       player2.accumulateTurnScore(roll);
       if (roll === 1) {
         $("p#player1-error").hide();
+        player1.turnStatus = true;
       }
       $("p#player2-roll-result").text(roll + " " + player2.turnScore);
     } else {
