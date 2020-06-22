@@ -4,7 +4,7 @@
 
 ## Description
 
-  A fully functional simulated game of Pig Dice that can be played by two players. This program uses what we have learned so far regarding object-oriented JavaScript programming in our Epicodus class, and is a good representative document of the back-end / business logic skills we have been working on cultivating.
+  A fully functional simulated game of Pig Dice that can be played by two players. The program has been built with HTML, CSS, and JavaScript, with Bootstrap and jQuery CSS and JavaScript libraries, respectively. This program uses what we have learned so far regarding object-oriented JavaScript programming in our Epicodus class, and is a good representative document of the separated back-end and business logic skills we have been working on cultivating, as well as one of the most up-to-date demonstrations of the HTML and CSS web-page design skills we have worked on thus far.
 
 ## Languages & Technologies Used:
 
